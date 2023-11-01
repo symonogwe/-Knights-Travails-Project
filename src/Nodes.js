@@ -15,7 +15,7 @@ class Node {
 // nodes array
 
 // nodes creation
-let squareObj = {};
+export let squareObj = {};
 
 for (let i = 1; i <= 8; i++) {
   squareObj[`${i}A`] = new Node(`${i}A`);
@@ -29,8 +29,7 @@ for (let i = 1; i <= 8; i++) {
 }
 
 // nodes array
-const nodesArray = Object.values(squareObj);
-console.log(nodesArray);
+export const nodesArray = Object.values(squareObj);
 
 // Adjacency list assignment
 //node 1A
