@@ -34,15 +34,15 @@ class Graph {
       pathArr.push(currNode);
       currNode = visitedNodes[currNode.data];
     }
-    console.log(pathArr.reverse());
+    console.log(pathArr.reverse().map((node) => node.data));
   }
 }
 
 // GameBoard
 const gameBoard = new Graph(nodesArray);
 
-let startNode = squareObj["3C"];
-let endNode = squareObj["1A"];
+let startNode = squareObj["5F"];
+let endNode = squareObj["2F"];
 
 console.log(startNode);
 
