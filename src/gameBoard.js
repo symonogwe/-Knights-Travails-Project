@@ -91,4 +91,4 @@ function knightTravails(start, end) {
   }
 }
 
-console.log(knightTravails([3, 1], [7, 5]));
+console.log(knightTravails([0, 0], [7, 7]));
